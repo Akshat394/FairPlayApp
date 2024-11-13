@@ -39,33 +39,34 @@ FairPlay is a mobile application designed to educate athletes, coaches, and doct
   - MongoDB (for data storage)
 
 ## Directory Structure
-/FairPlayApp
-/app
-/components
-├── Articles.js // Component to display articles
-├── Avatar.js // Component for user avatars
-├── ChatBox.js // Component for chat functionality
-├── DailyTasks.js // Component for daily tasks
-├── Environment.js // Component for interactive environment elements
-├── Feedback.js // Component for submitting feedback
-├── PointsAndBadges.js // Component to display points and badges
-├── Quizzes.js // Component for quizzes
-└── VirtualLobby.js // Main component for the virtual lobby (if needed)
-/screens
-├── AthleteDashboard.js // Screen for athlete dashboard
-├── CoachDashboard.js // Screen for coach dashboard
-├── DoctorDashboard.js // Screen for doctor dashboard
-├── HomeScreen.js // Home screen with login functionality
-└── VirtualLobbyScreen.js // Main screen for the virtual lobby, integrating components
-App.js // Main application file
-babel.config.js // Babel configuration file
-package.json // Project dependencies and scripts
-/backend
-index.js // Main backend server file
-models/
-User.js // Mongoose model for user data
-routes/
-userRoutes.js // API routes for user-related operations
+/FairPlayApp-
+/app-
+/components-
+├── Articles.js // Component to display articles-
+├── Avatar.js // Component for user avatars-
+├── ChatBox.js // Component for chat functionality-
+├── DailyTasks.js // Component for daily tasks-
+├── Environment.js // Component for interactive environment elements-
+├── Feedback.js // Component for submitting feedback-
+├── PointsAndBadges.js // Component to display points and badges-
+├── Quizzes.js // Component for quizzes-
+└── VirtualLobby.js // Main component for the virtual lobby (if needed)-
+/screens-
+├── AthleteDashboard.js // Screen for athlete dashboard-
+├── CoachDashboard.js // Screen for coach dashboard-
+├── DoctorDashboard.js // Screen for doctor dashboard-
+├── HomeScreen.js // Home screen with login functionality-
+└── VirtualLobbyScreen.js // Main screen for the virtual lobby, integrating components-
+App.js // Main application file-
+babel.config.js // Babel configuration file-
+package.json // Project dependencies and scripts-
+
+/backend-
+index.js // Main backend server file-
+models/-
+User.js // Mongoose model for user data-
+routes/-
+userRoutes.js // API routes for user-related operations-
 
 
 ## Backend Setup
@@ -90,28 +91,28 @@ PORT=5000 // Port on which the server will run.
 
 ## Installation
 
-1. Clone the repository:
+**1. Clone the repository:**
    git clone https://github.com/Akshat394/FairPlayApp.git
    cd FairPlayApp
    
-2. Install Dependencies for the front end
+**2. Install Dependencies for the front end**
    cd app
    npm install
 
-3. Install Dependencies for the back end
+**3. Install Dependencies for the back end**
    cd ../backend
    npm install
    
-5. Running the backend
+**5. Running the backend**
    cd backend
    
-7. Start the server
+**6. Start the server**
    node index.js
 
-8. Navigate to the APP
+**7. Navigate to the APP**
    cd ../app
    
-10. LAUNCH THE EXPO APP
+**8. LAUNCH THE EXPO APP**
     npm start
 
 
