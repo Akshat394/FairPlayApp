@@ -1,118 +1,50 @@
-# FairPlay App
+# Welcome to your Expo app 👋
 
-## Overview
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-FairPlay is a mobile application designed to educate athletes, coaches, and doctors about anti-doping regulations while providing an interactive platform for engagement. The app features a virtual lobby where users can interact, complete tasks, and access educational resources.
+## Get started
 
-## Table of Contents
+1. Install dependencies
 
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Directory Structure](#directory-structure)
-- [Backend Setup](#backend-setup)
-- [Installation](#installation)
-- [Usage](#usage)
-
-## Features
-
-- **User Roles**: Supports three user roles: Athlete, Coach, and Doctor.
-- **Dashboards**: Each user role has a dedicated dashboard with relevant functionalities:
-  - **Athlete Dashboard**: Daily tasks, quizzes, and educational articles.
-  - **Coach Dashboard**: Points and badges system to track progress.
-  - **Doctor Dashboard**: Feedback submission and access to articles.
-- **Virtual Lobby**: An interactive space where users can:
-  - Move avatars using arrow keys.
-  - Interact with environment elements like gyms and hospitals.
-  - Chat with nearby avatars in real-time.
-
-## Technologies Used
-
-- **Frontend**:
-  - React Native
-  - Expo
-  - React Navigation
-  - Axios (for HTTP requests)
-  
-- **Backend**:
-  - Node.js
-  - Express.js
-  - MongoDB (for data storage)
-
-## Directory Structure
-/FairPlayApp-
-/app-
-/components-
-├── Articles.js // Component to display articles-
-├── Avatar.js // Component for user avatars-
-├── ChatBox.js // Component for chat functionality-
-├── DailyTasks.js // Component for daily tasks-
-├── Environment.js // Component for interactive environment elements-
-├── Feedback.js // Component for submitting feedback-
-├── PointsAndBadges.js // Component to display points and badges-
-├── Quizzes.js // Component for quizzes-
-└── VirtualLobby.js // Main component for the virtual lobby (if needed)-
-/screens-
-├── AthleteDashboard.js // Screen for athlete dashboard-
-├── CoachDashboard.js // Screen for coach dashboard-
-├── DoctorDashboard.js // Screen for doctor dashboard-
-├── HomeScreen.js // Home screen with login functionality-
-└── VirtualLobbyScreen.js // Main screen for the virtual lobby, integrating components-
-App.js // Main application file-
-babel.config.js // Babel configuration file-
-package.json // Project dependencies and scripts-
-
-/backend-
-index.js // Main backend server file-
-models/-
-User.js // Mongoose model for user data-
-routes/-
-userRoutes.js // API routes for user-related operations-
-
-
-## Backend Setup
-
-The backend is built using Node.js and Express. It connects to a MongoDB database to store user data. The API provides endpoints for user registration, feedback submission, and retrieving educational content.
-
-### Backend Directory Structure
-/backend
-index.js // Main backend server file that sets up Express and connects to MongoDB.
-models/
-User.js // Mongoose model defining the user schema.
-routes/
-userRoutes.js // API routes handling user-related requests.
-
-
-### Environment Variables
-
-Create a `.env` file in the `backend` directory with the following content:
-MONGODB_URI=mongodb://localhost:27017/fairplaydb // Replace with your MongoDB connection string.
-PORT=5000 // Port on which the server will run.
-
-
-## Installation
-
-**1. Clone the repository:**
-   git clone https://github.com/Akshat394/FairPlayApp.git
-   cd FairPlayApp
-   
-**2. Install Dependencies for the front end**
-   cd app
+   ```bash
    npm install
+   ```
 
-**3. Install Dependencies for the back end**
-   cd ../backend
-   npm install
-   
-**5. Running the backend**
-   cd backend
-   
-**6. Start the server**
-   node index.js
+2. Start the app
 
-**7. Navigate to the APP**
-   cd ../app
-   
-**8. LAUNCH THE EXPO APP**
-    npm start
+   ```bash
+    npx expo start
+   ```
 
+In the output, you'll find options to open the app in a
 
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+
+## Get a fresh project
+
+When you're ready, run:
+
+```bash
+npm run reset-project
+```
+
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+
+## Learn more
+
+To learn more about developing your project with Expo, look at the following resources:
+
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
